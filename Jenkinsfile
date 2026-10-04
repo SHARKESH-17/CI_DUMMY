@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/SHARKESH-17/jenkins-CI-demo.git'
+                    url: 'https://github.com/SHARKESH-17/CI_DUMMY.git'
             }
         }
 
